@@ -33,9 +33,11 @@ learning_loop_echo_max = 3
 
 # edax config
 edax_level = 1
-edax_path = "./edax/Edax"
-edax_eval_path = "./edax/data/eval.dat"
-edax_book_path = "./edax/data/book.dat"
+edax_path = "./edax-reversi/bin/lEdax-x64"
+edax_eval_path = "./edax-reversi/bin/data/eval.dat"
+edax_book_path = "./edax-reversi/bin/data/book.dat"
+
+alpha_beta_path = "./alpha-beta/bazel-bin/main"
 
 # path config
 checkpoint_path = "./checkpoint/"

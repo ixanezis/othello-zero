@@ -15,8 +15,8 @@ string_board = [
     list("7 ├─┼─┼─┼─┼─┼─┼─┤"),
     list("8 └─┴─┴─┴─┴─┴─┴─┘")
 ]
-black_sign = "●"
-white_sign = "○"
+white_sign = "●"
+black_sign = "○"
 legal_move_sign = "×"
 
 def bit_to_sign(bit, sign, cur_string_board):
